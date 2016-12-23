@@ -1,0 +1,44 @@
+#header{
+	width:100%;
+	background-color:#E7E7E7;
+}
+
+#meetTheTeam{
+	position:absolute;
+	top:0px;
+	left:230px;
+	background-color: black;
+	color:white;
+	padding: 3px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+#logo{
+		max-height: 200px;
+		margin-top:30px;
+}
+
+#topNavList{
+	list-style: none;
+	margin-bottom: 0px;
+}
+
+#topNavList li{
+	padding:5px 15px;
+	font-size: 25px;
+	font-weight:300;
+}
+
+#topNavList li:hover{
+	color:$mainRed;
+	cursor: pointer;
+}
+
+#panelImg{
+	width:100%;
+	height:auto;
+	border-top:3px solid $mainRed;
+}

@@ -1,0 +1,135 @@
+#content{
+	width:100%;
+	background-color:#E7E7E7;
+	padding:20px;
+}
+
+#tilesWapper{
+	width: 85%;
+	margin-right:10px;
+}
+
+.tiles{
+	margin-bottom:25px;
+	margin-right:0px;
+	margin-left:0px;
+}
+
+.tiles .col-md-4{
+	display: flex;
+	justify-content:center;
+	transition:1s;
+}
+
+.tiles .col-md-4:hover{
+	background-color: #d89f9f;
+	cursor: pointer;
+}
+
+.tileSection{
+	color:$mainRed;
+	font-size:20px;
+	margin-bottom:0px;
+}
+
+.tileImg{
+	max-width:300px;
+}
+
+.tileTitle, .tileCDeck{
+	margin-bottom:0px
+}
+
+.tileCDeck{
+	  font-size: 14px;
+    font-weight: 300;
+}
+
+#sidebar{
+	width:15%;
+	padding-right:10px;
+}
+
+#latest{
+	border-left:solid 4px gray;
+	border-right:solid 4px gray;
+	padding:15px;
+}
+
+#latestList{
+	list-style: none;
+}
+
+#latestTitle{
+	font-size: 40px;
+	text-align: center;
+}
+
+#latestList li{
+	text-align: center;
+}
+
+.LatestItem:hover{
+	cursor: pointer;
+	color: $mainRed;
+}
+
+#inPrint{
+	margin-top:20px;
+}
+
+#calender, #today{
+	border:thin solid $mainRed;
+	margin-top:25px;
+	padding:10px;
+}
+
+#calenderTitle, #todayTitle{
+	font-size: 20px;
+	font-weight:300px;
+	text-align: center;
+}
+
+#calenderList, #todayList{
+	list-style: none;
+}
+
+.calenderItem:hover, .todayItem:hover{
+	cursor:pointer;
+	color:$mainRed;
+}
+
+#bannerAd{
+	padding:25px;
+}
+
+#social{
+
+}
+
+#social div{
+	margin:30px;
+	height:300px;
+}
+
+#twitter{
+	background-color: gray;
+	width:65%;
+}
+
+#instagram{
+	background-color: gray;
+	width:35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

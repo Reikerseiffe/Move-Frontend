@@ -22,8 +22,13 @@
 }
 
 .tiles .col-md-4:hover{
-	background-color: #d89f9f;
 	cursor: pointer;
+
+	.tileSection, .tileTitle, .tileCDeck{
+		text-decoration: underline;
+	}
+
+
 }
 
 .tileSection{

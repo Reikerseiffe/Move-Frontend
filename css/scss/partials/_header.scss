@@ -4,22 +4,64 @@
 }
 
 #meetTheTeam{
-	position:absolute;
-	top:0px;
-	left:230px;
-	background-color: black;
+	margin-left: 60px;
+	background-color: #252525;
 	color:white;
 	padding: 3px;
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 200;
   cursor: pointer;
+  display:flex;
+  margin-right:auto;
+  z-index: 101;
 }
 
 #logo{
 		max-height: 200px;
 		margin-top:30px;
 }
+
+#topNavList li:last-child{
+	// display:none;
+	
+}
+
+#searchBox{
+	outline:none;
+	background-color: inherit;
+	border: none;
+  margin-bottom:2px;
+  transition: color 0.25s;
+  max-width: 175px;
+}
+
+#searchButton{
+	visibility: hidden;
+	// width:64px;
+	// border:solid thin $mainRed;
+	// border-radius: 5px;
+	//background-color: $mainRed;
+	background-color: inherit;
+	// color:$mainRed;
+	// font-weight: 700;
+	// font-size: 26px;
+}
+
+#searchButton:hover{
+	color:$mainRed;
+}
+
+#searchBox:focus{
+	margin-bottom:0px;
+	border-bottom:solid 2px $mainRed;
+}
+
+input#searchBox:focus + button#searchButton, input#searchBox:focus + button#searchButton, button#searchButton:hover, button#searchButton:active {
+    visibility: visible;
+}
+
+
 
 #topNavList{
 	list-style: none;

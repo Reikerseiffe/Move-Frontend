@@ -1,0 +1,79 @@
+#article{
+	
+}
+
+#article img{
+
+}
+
+#articleInnerWrapper{
+
+}
+
+#articleTitleBox{
+	border-bottom: lightgray solid 3px;
+	margin-bottom: 20px;
+}
+
+#titleSocial{
+	display:flex;
+	justify-content: flex-end;
+	margin-right:25px;
+}
+
+#articleTitle{
+	font-size: 55px;
+}
+
+#articleCDeck{
+	font-size: 30px;
+	font-weight: 300;
+}
+
+#titleSocial i{
+	margin:5px;
+}
+
+#titleSocial i:hover{
+	color: $mainRed;
+	cursor: pointer;
+}
+
+#articleContent{
+	width: 85%;
+	margin-right:10px;
+	padding:0px 20px;
+}
+
+#moreStories{
+	margin-top:200px;
+}
+
+#moreStoriesTitle{
+	color:$mainRed;
+	font-size: 25px;
+	font-weight: 200;
+	border-bottom: lightgray solid 3px;
+	margin-bottom:25px;
+}
+
+#moreStoriesList{
+	list-style: none;
+}
+
+#moreStoriesList li{
+	font-size:18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

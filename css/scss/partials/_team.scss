@@ -1,0 +1,67 @@
+#teamWrapper{
+	display:flex;
+	justify-content:center;
+	// background-color:#DEDEDE;
+}
+
+#team{
+	position:absolute;
+	z-index: 100;
+	width:1200px;
+	height:auto;
+	background-color: #252525;
+	display:none;
+	// margin-top:25px;
+}
+
+#teamInnerWrapper{
+	justify-content:center;
+	padding:50px 20px;
+
+}
+
+#teamHeader{
+	padding:20px;
+
+	p{
+		color:white;
+		font-weight: 200;
+	}
+}
+
+#teamHeaderTitle{
+	font-size: 45px;
+	font-weight: 300;
+	color:white;
+	span{
+		color:$mainRed;
+	}
+}
+
+#ourTeam{
+
+	.stafferBox{
+		display: flex;
+		flex-flow:row;
+		align-items:center;
+
+		p{
+			color:white;
+			font-weight: 100;
+		}
+
+		img{
+			max-height: 150px;
+			margin:8px;
+			border-radius: 50%;
+		}
+	}
+}
+
+
+
+
+
+
+
+
